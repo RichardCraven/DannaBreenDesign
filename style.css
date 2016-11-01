@@ -1,0 +1,148 @@
+body{
+	background-color: grey;
+}
+
+.navbar {
+	margin-bottom:0px;
+	padding-bottom:0px;
+	background-color:black;
+	border:0px;
+	/*font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Cormorant Garamond', serif;
+}
+.navbar h4{
+	font-size: 32px;
+	/*color:#F0FFFF;*/
+	color:grey;
+	font-weight: 500
+}
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+	/*padding-bottom:55px;*/
+}
+.container-fluid span{
+	font-weight: 300
+}
+h1 span{
+	font-size:0.7em;
+	color: #e6ffff;
+}
+/*.home img .logo{
+	height: 200px;
+	width: 200px;
+} */
+.aboutRow, .contactRow, img{
+	height: 100vh;
+	width: 100vw;
+}
+.aboutRow{
+	background-image: url(images/About_Image.jpg);
+	background-size: 100%
+}
+.testimonialRow{
+	background-image: url(images/Testimonial_Image.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	-webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(50%); 
+}
+.contactRow{
+	background-image: url(images/Contact_Image.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	-webkit-filter: brightness(80%);
+}
+.aboutRow h4{
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Crimson Text', serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Amiri', serif;
+	font-family: 'IM Fell Great Primer', serif;
+	font-size:3em;
+	color:white;
+	line-height: 2;
+}
+.aboutRow .row{
+	height:0px;
+	margin-top:18vh
+}
+.testimonial-text h3{
+	font-family: 'IM Fell Great Primer', serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Caveat', cursive;
+	font-size:3.2em;
+	color:white;
+}
+.testimonialRow {
+	height: 485px;
+	width: 100%;
+}
+.testimonial-text{
+	margin-top:-61vh;
+	padding-bottom:50px;
+}
+.testimonial-text span{
+	font-size:0.6em;
+	font-family: 'IM Fell Great Primer', serif;
+	color:white;
+}
+.contact-text{
+	font-family: 'IM Fell Great Primer', serif;
+	font-family: 'Niconne', cursive;
+	
+	margin-top:-80vh
+}
+.contact-text h1{
+	font-size:5.2em;
+	color:#e6ffff;
+	font-family: 'IM Fell Great Primer', serif;
+}
+.contact-text2 h1{
+	font-size:6.2em;
+	color:#e6ffff;
+	font-family: 'IM Fell Great Primer', serif;
+}
+.contact-text2 h3{
+	font-size:4em;
+	color:#e6ffff;
+	font-family: 'IM Fell Great Primer', serif;
+}
+.contact-text hr{
+	border:2px solid #fb006b;
+	width: 50%;
+}
+div.row.tRow{
+	/*height:0px;*/
+	margin-top:18vh !important
+}
+.aboutRow .row hr{
+	border:1px solid #ff00ee;
+	border:1px solid #ff1694;
+	border:1px solid #fb006b;
+	width: 35%;
+
+}
+img.logo  {
+	position:absolute;
+	/*display:block;*/
+	/*z-index:15;*/
+	height: 300px;
+    width: 400px;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 37%;
+    opacity: 0.7
+}
+img.footerLogo  {
+	position:absolute;
+	/*display:block;*/
+	/*z-index:15;*/
+	height: 200px;
+    width: 300px;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 40%;
+    opacity: 0.7
+}
+
