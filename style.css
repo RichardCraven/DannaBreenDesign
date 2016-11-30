@@ -1,5 +1,18 @@
 body{
 	background-color: grey;
+	width: 100%;
+	height: 100%;
+	max-width :100%
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*overflow-x: hidden; */
+}
+.container-fluid{
+	width: 100%;
 }
 
 .navbar {
@@ -13,8 +26,10 @@ body{
 .navbar h4{
 	font-size: 32px;
 	/*color:#F0FFFF;*/
-	color:grey;
-	font-weight: 500
+	color:white;
+	font-weight: 500;
+	letter-spacing: 20px;
+
 }
 .container-fluid{
 	padding-left:0;
@@ -34,18 +49,46 @@ h1 span{
 } */
 .aboutRow, .contactRow, img{
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
+	margin: 0 auto;
 }
 .aboutRow{
 	background-image: url(images/About_Image.jpg);
+	/*background-size: 100%*/
 	background-size: 100%
+	/*max-width :100%*/
 }
 .testimonialRow{
 	background-image: url(images/Testimonial_Image.jpg);
 	background-size: 100%;
+	/*width: 100vw;*/
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
--webkit-filter: brightness(50%); 
+	/*-webkit-filter: grayscale; */
+/*-webkit-filter: brightness(50%); */
+	/*height: 685px;*/
+	height: 55vh;
+}
+.testimonial-text{
+	font-family: 'IM Fell Great Primer', serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Caveat', cursive;
+	font-size:34px;
+	/*font-family: 'IM Fell Great Primer', serif;*/
+	color:white;
+	z-index:15;
+	margin-top:9%;
+}
+.testimonial-text h3{
+	font-size:34px;
+}
+.testimonialRow::before{
+	content: '';
+    display: block;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
 }
 .contactRow{
 	background-image: url(images/Contact_Image.jpg);
@@ -67,25 +110,13 @@ h1 span{
 	height:0px;
 	margin-top:18vh
 }
-.testimonial-text h3{
-	font-family: 'IM Fell Great Primer', serif;
-	font-family: 'Niconne', cursive;
-	font-family: 'Caveat', cursive;
-	font-size:3.2em;
-	color:white;
-}
-.testimonialRow {
-	height: 485px;
-	width: 100%;
-}
-.testimonial-text{
-	margin-top:-61vh;
-	padding-bottom:50px;
-}
-.testimonial-text span{
-	font-size:0.6em;
-	font-family: 'IM Fell Great Primer', serif;
-	color:white;
+
+.threeWords{
+	font-size: 3.5em;
+	color: #fb006b;
+	/*letter-spacing: 10px;*/
+	margin-top:3%;
+	font-family: 'Cormorant Garamond', serif;
 }
 .contact-text{
 	font-family: 'IM Fell Great Primer', serif;
@@ -116,9 +147,20 @@ div.row.tRow{
 	/*height:0px;*/
 	margin-top:18vh !important
 }
-.aboutRow .row hr{
-	border:1px solid #ff00ee;
-	border:1px solid #ff1694;
+.aboutDiv{
+	position:relative;
+	z-index: 2 !important;
+	/*border: 1px solid yellow;*/
+	margin-top: 10%;
+	margin-left: 19%;
+}
+.aboutDiv h4{
+		font-family: 'Cormorant Garamond', serif;
+}
+.hotPink{
+	color:#fb006b;
+}
+.aboutRow hr{
 	border:1px solid #fb006b;
 	width: 35%;
 
@@ -130,7 +172,7 @@ img.logo  {
 	height: 300px;
     width: 400px;
     position: absolute;
-    margin-top: -40%;
+    margin-top: -41%;
     margin-left: 37%;
     opacity: 0.7
 }
@@ -144,5 +186,9 @@ img.footerLogo  {
     margin-top: -25%;
     margin-left: 40%;
     opacity: 0.7
+}
+.row{
+	margin-right:0px;
+	margin-left:0px;
 }
 
