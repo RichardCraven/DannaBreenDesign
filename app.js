@@ -18,14 +18,9 @@ $(function() {
 			afterRender:function() {}
 	});
 });
-// console.log($.scrollify.current())
-
-// $('.scrollFirst').click(function(){
-// 	$.scrollify.move("#name");
-// })
-
 $('.scroll').click(function(){
-	// console.log($.scrollify.current())
 	$.scrollify.next();
-	// console.log($.scrollify.current())
+})
+$('.email').click(function(){
+	location.href = "mailto:info@dannabreendesign.com?Subject=Inquiry%20about%20DannaBreenDesign";
 })

@@ -370,7 +370,15 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
 	    line-height: 80px;
 	}
 	.contact .scroll{
-		margin-top: 678px;
+		margin-top: 450px;
+	}
+	.contact-text .pink, .contact-text2 .pink{
+		font-size:5.4em;
+		margin-top: 100px;
+	}
+	h3.email{
+		font-size:5.4em;
+		margin-left: -29vw;
 	}
 }
 .mbr-arrow-floating{
