@@ -124,11 +124,11 @@ img.logo  {
 }
 .testimonialDiv1{
 	/*margin-right:44px;*/
-	margin-top: 20px;
+	margin-top: 48px;
 }
 .testimonialDiv2{
 	/*margin-left:50px;*/
-	margin-top: 50px;
+	margin-top: 35px;
 }
 .name{
 	font-family: 'Nunito Sans', sans-serif;
@@ -152,12 +152,17 @@ span.nameandcity{
 	font-family: 'Cormorant Garamond', serif;
 }
 div.container-fluid.contact{
-	background-image: url('images/Contact_Image.jpg');
+	background-image: url('images/DBD_NewImage_Contact.jpg');
 	/*background-color:green;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-filter: brightness(80%);
 	height: 100vh;
+}
+.contact-text .pink, .contact-text2 .pink{
+	color:#fb006b;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:3.4em;
 }
 .contact-text{
 	font-family: 'IM Fell Great Primer', serif;
@@ -169,16 +174,19 @@ div.container-fluid.contact{
 	font-family: 'IM Fell Great Primer', serif;
 }
 .contact-text2 h1{
-	font-size:6.2em;
+	font-size:5.8em;
 	color:#e6ffff;
 	font-family: 'IM Fell Great Primer', serif;
 }
 .contact-text2 h3{
-	font-size:3em;
+	font-size:2.8em;
 	color:#e6ffff;
 	font-family: 'IM Fell Great Primer', serif;
 }
-
+.contact-text2 h3:hover{
+	color:#fb006b;
+	cursor: pointer;
+}
 
 .contact-text hr{
 	border:2px solid #fb006b;
@@ -211,7 +219,7 @@ div.row.contact-text{
 }
 .footer{
 	height: 65vh;
-	background-image:url(images/Footer_Image.jpg);
+	background-image:url(images/DBD_NewImage_SignOff.jpg);
 	background-size:cover;
 }
 img.footerLogo  {
@@ -244,7 +252,7 @@ img.footerLogo  {
 	top:190px;
 }
 .testimonial .scroll{
-	top:100px;
+	top:80px;
 }
 .scroll:hover {
 	text-decoration:none;
